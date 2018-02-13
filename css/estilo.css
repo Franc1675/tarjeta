@@ -6,6 +6,7 @@ body{
 	height: 100%;
 	z-index: -1;
 	position: absolute;
+	filter: opacity();
 }
 #tarjeta{
 	width: 60%;
@@ -40,5 +41,14 @@ width: 6em;
 }
 
 #footer{
+width: 60%;
+height: 40%;
 margin-left: 17em;
+box-shadow: 5px 5px 5px #cecece;
+border-radius: 10px;
+background: ;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
 }
