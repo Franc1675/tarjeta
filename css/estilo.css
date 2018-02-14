@@ -31,22 +31,24 @@ body{
 	text-align: left;
 	color:#bd3339eb;
 }
-img{
-width: 6em;
+#footer a {
+	width: 20%;
 }
-
+/* solo para las imagenes del  div footer se aplica el estilo*/
 .foot{
-	margin:2em;
+	width: 50%;
+	height: 100%;
 	border-radius: 50%;
+	margin: 0% 25%;
 }
 
 #footer{
-width: 60%;
-height: 40%;
-margin-left: 17em;
-box-shadow: 5px 5px 5px #cecece;
-border-radius: 10px;
-background: ;
+	width: 60%;
+	margin-left: 17em; /*arreglar a porcetaje*/
+	box-shadow: 5px 5px 5px #cecece;
+	border-radius: 10px;
+	display: inline-flex;
+	background: #ffffff;
 }
 
 h1{
